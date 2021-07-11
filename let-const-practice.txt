@@ -1,0 +1,36 @@
+var PI = 3.14;
+PI = 42; // stop me from doing this!
+
+/* Write an ES2015 Version */
+const PI = 3.14;
+
+
+
+What is the difference between var and let?
+
+VAR can be redeclared, reassigned, is added to the window object, 
+and is function scoped.
+LET cannot be redeclared, is not added to the window object, and is block scoped. 
+LET and VAR behave the same only in that they both can have their values reassigned.
+
+What is the difference between var and const?
+
+VAR can be redeclared, reassigned, is added to the window object, 
+and is function scoped.
+CONST cannot be redeclared or reassigned, is not added to the window object, 
+and is block scoped. 
+VAR and CONST behave the same only in that they both can mutate their values, 
+as in, the contents of an array or object can be changed.
+
+What is the difference between let and const?
+
+First, LET can be reassigned, but CONST cannot be reassigned. Second, when 
+you declare a variable with LET, you are not required to set an initial value. 
+However, when you declare a variable with CONST, you must set an initial value, 
+even if it is simply an empty object or an empty array. 
+
+What is hoisting?
+
+HOISTING -> with the VAR keyword, variable declarations are run first, hoisted 
+to the global scope, before the variables are assigned values. This doesn't 
+happen with LET or CONST.
