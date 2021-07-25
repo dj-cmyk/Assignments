@@ -1,0 +1,30 @@
+In your own terms, define the following terms:
+
+What is HTTP?
+	HTTP stands for hyper-text transfer protocol, sort of like a set of rules for how users can interact with web servers
+
+What is a URL?
+	a URL is an address for a particular website/web app. This is what you type into your browser in order to navigate to a certain web address.
+
+What is DNS?
+	stands for Domain Name System, and turns the URL (what we type/understand) into an IP address (what the computer understands)
+
+What is a query string?
+	a query string is what is sent as part of a get request that a server can use to search through their files/databases to get the information that you requested and send it back to you. 
+
+What are two HTTP verbs and how are they different?
+	GET - a method where you ask for information and are given information back. There is no way to change any backend/server information with a GET request. 
+	POST - a method where you can in some way add or modify information on a server/in a hosted database. POST method sneds information as opposed to GET method which receives information. 
+
+What is an HTTP request?
+	This is what you make when you fill out a form or navigate to a web address - you are making an HTTP request to a server for information. 
+
+What is an HTTP response?
+	This is what is returned to the user(client) after they make a request. 
+
+What is an HTTP header? Give a couple examples of request and response headers you have seen.
+	A header is additional information included in a request or response. Some examples include the language in which the web page would display (English, French, Spanish, etc), or the type of data that is returned (JSON, HTML, etc).
+
+What are the processes that happen when you type “http://somesite.com/some/page.html” into a browser?
+	When you type a web address or a URL into your browser, the browser will include additional headers and make a response to that particular websites server. That server will search for the information you requested (the particular page/html), and will return that information to your browser. The browser will then render the html/css/js into a visual representation of the code (the website will be displayed). If that page doesn't exist, you may receive a different response (404, 500) which may indicate that the problem is with the information that you provided to the browser or it may be a problem with the server. 
+
